@@ -9,6 +9,8 @@ Sepetteki ürünleri silebilir, sepeti boşaltabilir ve sepetteki ürünleri sat
 
 Uygulamadaki her ekleme, silme ve satın alma işlemleri `localStorage`'a kaydedilir. Böylelikle herhangi bir sayfa değişikliğinde veriler kaybolmadan alışverişe devam edebilirsiniz.
 
+Ürünlerdeki görseller, görselle alakalı olmayan başlıklar ve fiyatlar Platzi API'den gelen o ürüne ait verilerdir.
+
 [Demo](https://bayirdan.github.io/fake-store/)
 
 ---
