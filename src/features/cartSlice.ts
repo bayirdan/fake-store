@@ -41,7 +41,6 @@ export const cartSlice = createSlice({
       state: { cart: any[] },
       action: PayloadAction<ShoppingCartType>
     ) => {
-      console.log(action.payload);
       state.cart = state.cart.filter((item: { product: { id: number } }) => {
         return item.product.id !== action.payload.product.id;
       });
