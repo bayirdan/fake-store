@@ -12,7 +12,7 @@ Uygulamadaki her ekleme, silme ve satın alma işlemleri `localStorage`'a kayded
 >**Note**
 Ürünlerdeki görseller, görselle alakalı olmayan başlıklar ve fiyatlar Platzi API'den gelen o ürüne ait verilerdir.
 
-[Demo](https://bayirdan.github.io/fake-store/)
+[Live Demo](https://bayirdan.github.io/fake-store/)
 
 ---
 
