@@ -1,0 +1,44 @@
+.App {
+  padding: 0 80px 80px 280px;
+}
+h1.title {
+  font-size: 45px;
+  text-align: center;
+  margin: 80px 0;
+  color: var(--black);
+  font-weight: 600;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  row-gap: 50px;
+  column-gap: 20px;
+}
+
+@media (max-width: 1679px) {
+  .products {
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 40px;
+  }
+}
+
+@media (max-width: 1365px) {
+  .products {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    column-gap: 15px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .products {
+    grid-template-columns: 1fr;
+  }
+}

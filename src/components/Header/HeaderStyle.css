@@ -1,0 +1,94 @@
+.header-box {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 150px;
+  height: 100vh;
+  background-color: #e5e5e5;
+  color: var(--black);
+  z-index: 99;
+}
+
+.header-box header {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.header-box header .logo {
+  font-weight: 800;
+  font-size: 26px;
+  border-radius: 10px;
+  user-select: none;
+  text-shadow: -3px 3px 2px rgba(0, 0, 0, 0.2);
+  letter-spacing: 3px;
+}
+.header-box header .logo span {
+  font-weight: 500;
+  font-size: 50px;
+  text-shadow: -3px 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+.header-box header .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.header-box header .box:hover {
+  opacity: 0.8;
+}
+
+.header-box header .box i {
+  font-size: 20px;
+  transition: 1s;
+  position: relative;
+}
+
+.header-box header .box i .total-amount {
+  display: none;
+  font-family: monospace;
+  background-color: #ccc;
+  color: var(--red);
+  font-weight: 600;
+  width: 18px;
+  height: 18px;
+  font-size: 13px;
+  position: absolute;
+  right: -15px;
+  top: -15px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+}
+.header-box header .box i .show-total {
+  display: flex;
+}
+
+.header-box header .box span {
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}
+
+@media (max-width: 1365px) {
+  .header-box {
+    width: 140px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .header-box {
+    width: 130px;
+  }
+}
