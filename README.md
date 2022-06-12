@@ -22,7 +22,7 @@ Uygulamadaki her ekleme, silme ve satın alma işlemleri `localStorage`'a kayded
 npm install
 ```
 
-## Server ve Client Çalıştırma
+## Çalıştırma
 
 ```
 npm run start
